@@ -10,7 +10,7 @@ text-align: center;
 .photo{
 width: 100%;
 object-position: center center;
-border-radius: 20%;
+border-radius: 0;
 }
 .title{
 text-align: center;
@@ -21,6 +21,16 @@ color:var(--letras-azul)
 }
 .title span{
   color:white;
+}
+@media (max-width: 700px){
+  height: 100%;
+   text-align: center;
+   color: #fff;
+}
+.photo{
+   box-shadow: 10px -10px var(--letras-azul);
+   width: 160px;
+   object-position: center center;
 }
 `
 const PhotoAbout = () => {

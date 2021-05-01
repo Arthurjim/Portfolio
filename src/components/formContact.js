@@ -1,5 +1,4 @@
 import React from 'react';
-import code  from '../images/coding.png'
 import styled from 'styled-components'
 
 const FormContactStyled = styled.form`
@@ -71,6 +70,45 @@ input{
 }
 input::placeholder{
   text-align:center;
+}
+@media screen and (max-width:800px){
+  width: 90%;
+height:500px;
+margin: 50px auto;
+border:7px solid #C1BEBE;
+border-radius:10px;
+
+.form{
+  text-align:center;
+  width: 100%;
+height:90%;
+color:white;
+display:grid;
+grid-template-columns: none;
+grid-template-rows:20% auto;
+}
+
+.name{
+  display:block;
+  margin-top:40px;
+}
+.name input{
+  display:block;
+  margin:auto;
+  width:250px;
+  height:30px;
+}
+.message{
+  display:block;
+  margin-top:40px;
+
+}
+.message input{
+  display:block;
+  margin:auto;
+  width:70%;
+  height:105px;
+}
 }
 `
 const FormContact = () => {

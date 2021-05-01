@@ -1,5 +1,6 @@
 import React from 'react';
-import {BrowserRouter as Router,  Switch,  Route} from "react-router-dom";
+import { HashRouter, Route, Switch } from 'react-router-dom';
+
 import Home from '../containers/Home';
 import AboutMe from '../containers/AboutMe';
 import Projects from '../containers/Projects';
@@ -15,7 +16,7 @@ const AppStyled = styled.div`
 `
 const App =()=>{
   return(
-    <Router>
+    <HashRouter>
         <AppStyled>
         <Header/>
 
@@ -30,7 +31,7 @@ const App =()=>{
           </Switch>
         </AppStyled>
     
-    </Router>
+    </HashRouter>
   )
 }
 

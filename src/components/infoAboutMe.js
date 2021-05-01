@@ -36,6 +36,62 @@ text-align: center;
   text-shadow: 0px 1px 0px rgb(80, 0, 0);
 
 }
+
+@media screen and (max-width: 1000px){
+display: grid;
+
+
+width: 90%;
+background:#03091E;
+border-left: 5px solid #afafaf;
+.main_info{
+color: #fff;
+width:80%;
+}
+.main_info-div{
+  width:100%;
+  padding: 10px 30px;
+
+}
+.main_info-div p{
+  width:100%;
+
+text-align: center;
+font-size: 18px;
+
+font-family: cursive;
+
+}
+}
+@media screen and (max-width: 800px){
+
+display: grid;
+
+grid-template-rows:1fr 1fr 1fr;
+grid-template-columns: none;
+
+width: 90%;
+background:#03091E;
+border-left: 5px solid #afafaf;
+.main_info{
+color: #fff;
+width:80%;
+}
+.main_info-div{
+  width:100%;
+  padding: 10px 30px;
+
+}
+.main_info-div p{
+  width:100%;
+
+text-align: center;
+font-size: 12px;
+font-family: cursive;
+
+}
+
+}
 `
 const InfoAboutMe = ({children}) => {
   return ( 

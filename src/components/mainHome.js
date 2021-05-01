@@ -140,7 +140,66 @@ color:black;
    }
    
 }
+@media screen and (max-width: 700px) {
+   .main__info-div{
+   width: 100%;
+   height: 100%;
+   border-left: 1px solid rgb(93, 238, 205);
+   /* border-bottom: 1px solid rgb(93, 238, 205); */
 
+  margin: 30px 15px;
+  padding:20px;
+  /* object-fit: cover; */
+  /* border: 1px solid red; */
+
+}
+.main__info-div  p{
+   margin-top: 25px;
+   font-size: 20px;
+   letter-spacing: 3px;
+   color:rgb(255, 255, 255);
+   text-align: center;
+
+}
+.main__info-div h2{
+   margin-top: 25px;
+   font-size: 45px;
+   font-weight: 800;
+   color:rgb(255, 253, 253);
+   text-align: center;
+
+}
+.main__info-div h2 span{
+   color: var( --letras-azul);
+   text-shadow: 0px 4px 0px rgb(80, 0, 0);
+
+
+}
+.main__info-div  h3{
+   margin-top: 25px;
+
+   font-size: 30px;
+   font-weight: 800;
+   color:rgb(255, 255, 255);
+   
+   text-align: center;
+
+   align-self: top;
+   padding-top: 20px;
+
+}
+.main__info-div  h3 span{
+   color: var( --letras-azul);
+   text-shadow: 0px 4px 0px rgb(80, 0, 0);
+}
+.main__animation{
+   display: none;
+}
+.main__contact .btn{
+   width:50%;
+   margin: 10% 20%;
+}
+}
 `
 
 const MainHome = () => {

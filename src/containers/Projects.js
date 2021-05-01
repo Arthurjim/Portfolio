@@ -5,7 +5,6 @@ import ProjecstList from '../components/projectsList';
 const ProjectStyled = styled.div`
 
       width: 100%;
-      height: 500px;
   
    
    .title{

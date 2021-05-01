@@ -49,6 +49,46 @@ const SocialLinksStyled = styled.div`
    font-size: 15px;
    font-weight: 700;
 }
+@media screen and (max-width:700px){
+  .main_social{
+   width: 100px;
+   height: 400px;
+   display: grid;
+   grid-template-rows: auto;
+   justify-content: right;
+   position: fixed;
+   right: 0;
+   bottom: 0;
+}
+.main_social-item{
+   transition: none;
+
+   display: grid;
+   grid-template-columns: 30% 70%;
+   height: 100%;
+   width: 50px;
+   
+   position: relative;
+   right: 0px;
+   border-radius: 55px 0 0 55px;
+   text-align: center;
+   justify-self: left;
+   align-items: center
+
+}
+.main_social-item:hover{
+   transition: none;
+   width: 50px;
+   display: grid;
+   justify-self: center;
+   right: 0;
+
+
+}
+.main_social-item a{
+  display:none;
+}
+}
 `
 
 
