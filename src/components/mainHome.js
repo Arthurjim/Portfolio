@@ -147,7 +147,7 @@ color:black;
    border-left: 1px solid rgb(93, 238, 205);
    /* border-bottom: 1px solid rgb(93, 238, 205); */
 
-  margin: 30px 15px;
+  margin: 30px 5px;
   padding:20px;
   /* object-fit: cover; */
   /* border: 1px solid red; */

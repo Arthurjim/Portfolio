@@ -11,9 +11,9 @@ width: 100%;
   
    order: 1;
    overflow:hidden;
-   background-attachment: fixed;
    @media screen and (max-width: 700px) {
     width: 100vw;
+    grid-template-columns: 80% 20%;
 
    }
    `

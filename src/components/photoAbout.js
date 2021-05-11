@@ -8,7 +8,7 @@ margin: auto;
 text-align: center;
 
 .photo{
-width: 100%;
+width: 200px;
 object-position: center center;
 border-radius: 0;
 }
@@ -22,22 +22,22 @@ color:var(--letras-azul)
 .title span{
   color:white;
 }
-@media (max-width: 700px){
+@media screen and (max-width: 700px){
   height: 100%;
    text-align: center;
    color: #fff;
-}
 .photo{
    box-shadow: 10px -10px var(--letras-azul);
-   width: 160px;
+   width: 130px;
    object-position: center center;
+}
 }
 `
 const PhotoAbout = () => {
   return ( 
     <PhotoAboutStyled>
       <h2 className="title">ABOUT <span>ME</span></h2>
-      <img className="photo" src={photo} alt=""></img>
+      <img className="photo" src='https://i.ibb.co/Q8v60DX/photo2.png' alt=""></img>
     </PhotoAboutStyled>
    );
 }
