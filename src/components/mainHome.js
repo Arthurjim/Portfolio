@@ -197,7 +197,7 @@ color:black;
 }
 .main__contact .btn{
    width:50%;
-   margin: 10% 20%;
+   margin: 10% 27%;
 }
 }
 `
