@@ -90,7 +90,7 @@ const InfoAboutMe = ({ children }) => {
             Información, graduado de la Universidad Tecnológica del Norte de
             Aguascalientes. <br/>
             Para mí es muy importante el superarse constantemente, trabajar día con día para llegar a ser el mejor
-            trabajador, mejor persona y siempre ser la mejor versión de mí.<br/>
+            trabajador, la mejor persona y siempre ser la mejor versión de mí.<br/>
             Actualmente me desempeño como <span>frontend Developer</span>, me apasiona
             desarrollar sitios web, interactivos y superar las expectativas del
             cliente.
