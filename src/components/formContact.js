@@ -1,6 +1,7 @@
 import React, { useState,useRef} from "react";
 import styled from "styled-components";
 import emailjs from "emailjs-com";
+import config from '../config'
 const FormContactStyled = styled.form`
   width: 70%;
   height: 500px;
@@ -187,10 +188,10 @@ const FormContact = () => {
     
     emailjs
       .send(
-        `service_o5ovutc`,
-        `template_h9o5jp9`,
+        config.SERVICE_ID,
+        config.TEMPLATE_ID,
         form,
-        'user_cOQbqhzUo87QZ9quyycFi'
+        config.USER_ID
       )
       .then(
         (response) => {
