@@ -207,7 +207,7 @@ const FormContact = () => {
   };
   return (
     <FormContactStyled onSubmit={sentEmail}>
-      <h2>CONTACT WITH ME</h2>
+      <h2>CONTÁCTAME!</h2>
       {MessageSuccessfull ? <h3 className="messageCorrect">Correo enviado correctamente</h3> : ''}
       {MessageError ? <h3 className="messageError">¡Ohps! Algo a fallado</h3> : ''}
 
@@ -215,12 +215,12 @@ const FormContact = () => {
        
         <div>
           <label className="name">
-            YOUR NAME:
+            TU NOMBRE:
             <input
               type="text"
               name="emailTitle"
               onChange={handleChange}
-              placeholder="emailTitle"
+              placeholder="Name"
               autoComplete="new-password"
               
               required
@@ -228,12 +228,12 @@ const FormContact = () => {
             />
           </label>
           <label className="name" htmlFor="">
-            YOUR EMAIL:
+            TU EMAIL:
             <input
               type="email"
               name="userEmail"
               onChange={handleChange}
-              placeholder="userEmail"
+              placeholder="Email"
               autoComplete="new-password"
               required
               ref={inputEmial}
@@ -242,7 +242,7 @@ const FormContact = () => {
           </label>
 
           <label className="message">
-            LEAVE HERE YOUR MESSAGE
+            ESCRIBE TU MENSAJE AQUÍ
             <input
               type="text"
               onChange={handleChange}
