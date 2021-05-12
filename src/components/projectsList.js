@@ -102,7 +102,6 @@ const ProjectListStyled = styled.div`
       color: rgb(214, 214, 214);
       border-radius: 20px 0;
       border: 3px solid rgb(102, 102, 102);
-      background: rgba(10, 10, 10, 0.582);
     }
     .top-projects-img__one img {
       object-fit: contain;

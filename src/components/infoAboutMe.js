@@ -35,7 +35,6 @@ const InfoAbout = styled.div`
 
     width: 90%;
 
-    background: #03091e;
     border-left: 5px solid #afafaf;
     .main_info {
       color: #fff;
@@ -64,7 +63,6 @@ const InfoAbout = styled.div`
     width: 90%;
   height:750px ;
 
-    background: #03091e;
     border-left: 5px solid #afafaf;
     .main_info {
       color: #fff;
