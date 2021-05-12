@@ -125,7 +125,7 @@ const SocialLinks = () => {
         <a href="/">
           <i className="fab fa-twitter"></i>
         </a>
-        <a href="/"> TWITTER</a>
+        <a href="/" className="links"> TWITTER</a>
       </div>
     </SocialLinksStyled>
   );
