@@ -21,8 +21,7 @@ const InfoAbout = styled.div`
   .main_info-div p {
     text-align: left;
     font-size: 22px;
-    font-family: 'Roboto Slab', serif;
-
+    font-family: "Roboto Slab", serif;
   }
   .main_info-div span {
     color: var(--letras-azul);
@@ -50,8 +49,7 @@ const InfoAbout = styled.div`
       text-align: center;
       font-size: 18px;
 
-      font-family: 'Roboto Slab', serif;
-
+      font-family: "Roboto Slab", serif;
     }
   }
   @media screen and (max-width: 800px) {
@@ -61,25 +59,23 @@ const InfoAbout = styled.div`
     grid-template-rows: 1fr 1fr 1fr;
 
     width: 90%;
-  height:750px ;
+    height: 750px;
 
     border-left: 5px solid #afafaf;
     .main_info {
       color: #fff;
       width: 100%;
-      
     }
     .main_info-div {
       width: 90%;
-      padding: 10px auto;
+      padding: 13px;
     }
     .main_info-div p {
       width: 100%;
 
-      text-align: center;
+      text-align: left;
       font-size: 15px;
-      font-family: 'Roboto Slab', serif;
-
+      font-family: "Roboto Slab", serif;
     }
   }
 `;
@@ -90,17 +86,15 @@ const InfoAboutMe = ({ children }) => {
       <div className="main_info">
         <div className="main_info-div">
           <p>
-            Hola, soy Arturo, Ingeniero en Tecnologías de la Información,
-            estudié en la Universidad Tecnológica del Norte de Aguascalientes.<br/>
-            Actualmente me desempeño como <span>Front End Developer</span>.<br/>
-            Para mi es muy importante nunca dejar de aprender, ya que esto nos
-            ayuda a ser mejor persona, trabajar y poder vivir mejor. Me gusta
-            crear proyectos que me hagan aprender cosas nuevas y superar las
-            expectativas. Actualmente vivo en Zacatecas, pero no tengo problema
-            en cambiar de residencia.
+            Hola, mi nombre es Arturo, Ingeniero en Tecnologías de la
+            Información, graduado de la Universidad Tecnológica del Norte de
+            Aguascalientes. <br/>
+            Para mí es muy importante el superarse constantemente, trabajar día con día para llegar a ser el mejor
+            trabajador, mejor persona y siempre ser la mejor versión de mí.<br/>
+            Actualmente me desempeño como <span>frontend Developer</span>, me apasiona
+            desarrollar sitios web, interactivos y superar las expectativas del
+            cliente.
           </p>
-
-     
         </div>
       </div>
       {children}

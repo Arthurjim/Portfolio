@@ -35,7 +35,7 @@ color:var(--letras-azul)
 const PhotoAbout = () => {
   return ( 
     <PhotoAboutStyled>
-      <h2 className="title">ABOUT <span>ME</span></h2>
+      <h2 className="title">ACERCA DE <span>MI</span></h2>
       <img className="photo" src='https://i.ibb.co/Q8v60DX/photo2.png' alt=""></img>
     </PhotoAboutStyled>
    );

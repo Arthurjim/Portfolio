@@ -81,7 +81,7 @@ const SkillInfoStyled = styled.div`
     
     grid-column: 1 / 2;
     width: 100%;
-    margin: auto;
+    margin: 10px auto;
  .containerSkill{
   grid-template-columns: repeat(3, 1fr);
     column-gap: 5px;
@@ -94,7 +94,7 @@ const SkillInfoStyled = styled.div`
       height: 80%;
     }
     .topSills p {
-      font-size: 12px;
+      font-size: 10px;
       width: 80%;
     }
     .skill {
