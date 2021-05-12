@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import photo from '../images/photo2.png'
 const PhotoAboutStyled = styled.div`
 
 height: 90%;

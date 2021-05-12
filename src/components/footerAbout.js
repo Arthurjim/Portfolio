@@ -48,7 +48,7 @@ const FooterAbout = () => {
   return ( 
     <FooterAboutStyled>
       <h3>Go <span>to</span>...</h3>
-      <Link>Universidad Tecnológica del Norte De Aguascalientes.</Link>
+      <Link >Universidad Tecnológica del Norte De Aguascalientes.</Link>
       <Link>Youtue/ArthurJimenez</Link>
       <Link>GitHub.com/ArthurJimenez</Link>
       <Link>Instagram.com/ArthurJimenezz</Link>

@@ -80,7 +80,6 @@ top: 0;
 grid-template-columns:none;
 
 grid-template-rows: 50% 50%;
-width: 100vw;
 
 height: 85px;
 

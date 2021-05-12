@@ -1,6 +1,5 @@
 import React from 'react';
 import InfoAboutMe from '../components/infoAboutMe';
-import FooterAbout from '../components/footerAbout'
 import SkillInfo from '../components/skillInfo'
 
 const AboutMe = () => {
@@ -9,7 +8,6 @@ const AboutMe = () => {
     <InfoAboutMe>
       <SkillInfo/>
     </InfoAboutMe>
-    < FooterAbout/>
     </>
    );
 }
