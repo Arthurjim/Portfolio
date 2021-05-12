@@ -15,8 +15,8 @@ const ProjectListStyled = styled.div`
     grid-template-columns: 50% 40% auto;
     color: rgb(214, 214, 214);
     border-radius: 20px 0;
-    border: 3px solid rgb(102, 102, 102);
-    background: rgba(10, 10, 10, 0.582);
+    border: 3px solid rgb(170, 170, 170);
+    background:#001d49;
   }
   .top-projects__one:hover {
     background: rgba(10, 10, 10, 0.82);
@@ -144,7 +144,7 @@ const ProjecstList = () => {
       <div class="top-projects__one">
         <div class="top-projects-info">
           <h3>Ecommerce</h3>
-          <p>Aplicaciones web creada con React Hooks. Integra herramientas como
+          <p>Aplicacion web creada con React Hooks. Integra herramientas como
           Strapi, PayPal y Google Maps para desarrollo de una tienda online con
           carrito de compras.</p>
         </div>
@@ -179,7 +179,7 @@ const ProjecstList = () => {
         <div class="top-projects-info">
           <h3>Point Of Sale</h3>
           <p>
-            Proyecto creado para administrar las ventas e inventario de algun establecimiento. <br/>
+            Proyecto creado para administrar las ventas e inventario de un establecimiento. <br/>
             Utilizando el stack PERN. (PostgreSQL, ExpressJS, React, NodeJs)
           </p>
         </div>

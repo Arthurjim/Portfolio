@@ -23,7 +23,7 @@ const ProjectStyled = styled.div`
 const Projects = () => {
   return (  
     <ProjectStyled>
-      <h3 class="title" >PROJECTS</h3>
+      <h3 class="title" >PROJECTOS</h3>
       <ProjecstList/>
     </ProjectStyled>
   );

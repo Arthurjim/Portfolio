@@ -8,7 +8,7 @@ const InfoAbout = styled.div`
   grid-template-columns: 24% auto;
   width: 80%;
   margin: 50px auto;
-  background: #03091e;
+  background: #001d49;
 
   border-left: 5px solid #afafaf;
 

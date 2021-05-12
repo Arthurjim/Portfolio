@@ -210,7 +210,7 @@ const MainHome = () => {
           <h2>Arturo <span>Jiménez</span> Reyes</h2>
           <h3>I'm FrontEnd <span>Developer</span> </h3>
           <div className="main__contact">
-           <Link to="/projects">
+           <Link to="/contact">
            <button className="btn">Contact Me</button>
            </Link>
           </div>

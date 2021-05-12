@@ -4,9 +4,9 @@ import emailjs from "emailjs-com";
 const FormContactStyled = styled.form`
   width: 70%;
   height: 500px;
-  background: rgba(10, 10, 10, 0.582);
+  background:#001d49;
   margin: 50px auto;
-  border: 7px solid #c1bebe;
+  border: 5px solid #c1bebe;
   border-radius: 10px;
   /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 39% 74%, 12% 98%, 16% 75%, 0% 75%); */
   h2 {
@@ -112,7 +112,6 @@ const FormContactStyled = styled.form`
     width: 90%;
     height: 550px;
     margin: 50px auto;
-    border: 7px solid #c1bebe;
     border-radius: 10px;
 
     .form {
