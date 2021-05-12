@@ -25,5 +25,5 @@ yarn-error.log*
 
 
 *.png
-
+#Environment variable
 config.js

@@ -209,7 +209,7 @@ const FormContact = () => {
   return (
     <FormContactStyled onSubmit={sentEmail}>
       <h2>CONTÁCTAME!</h2>
-      {MessageSuccessfull ? <h3 className="messageCorrect">Correo enviado correctamente</h3> : ''}
+      {MessageSuccessfull ? <h3 className="messageCorrect">¡Correo enviado correctamente!</h3> : ''}
       {MessageError ? <h3 className="messageError">¡Ohps! Algo a fallado</h3> : ''}
 
       <div className="form">
